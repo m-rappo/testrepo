@@ -3,3 +3,6 @@
 00_check.R
 ^LICENSE\.md$
 ^\.github$
+
+lib/
+testrepo-report.html
