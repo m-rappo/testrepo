@@ -6,6 +6,8 @@ library(usethis)
 # use_github_action(name = "check-standard")
 # use_test("triangle_area")
 
+
+# devtools (document, check, ...) ---------------
 library(devtools)
 
 load_all()
