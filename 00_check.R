@@ -1,5 +1,6 @@
 
 library(usethis)
+# create_package(path = ".", rstudio = TRUE)
 # use_gpl3_license()
 # use_package_doc()
 # use_github_action(name = "check-standard")
