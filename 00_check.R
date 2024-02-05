@@ -23,3 +23,16 @@ build()
 
 test()
 
+
+# covr::package_coverage() ------------
+# To be executed in a new session R
+rstudioapi::restartSession()
+library(covr)
+cov <- package_coverage()
+cov
+# as.data.frame(cov)
+# report()
+report(cov, file = "testrepo-report.html")
+
+
+
