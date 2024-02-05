@@ -2,7 +2,7 @@
 library(usethis)
 # use_gpl3_license()
 # use_package_doc()
-
+# use_github_action(name = "check-standard")
 
 library(devtools)
 
