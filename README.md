@@ -28,3 +28,9 @@ git clone https://github.com/SwissStatsR/testrepo.git
 git clone git@github.com:SwissStatsR/testrepo.git
 ```
 
+- after creating a new file or modifying an existing one:
+```
+git add *
+git commit -m "A short description of what we changed"
+git push
+```
