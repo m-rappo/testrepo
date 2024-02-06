@@ -59,5 +59,11 @@ git push --set-upstream origin name-of-new-branch
 
 git branch
 # You should see an asterisk next to name-of-new-branch
+
+# Move back to the main branch
+git checkout main
+
+# Move to the branch name-of-new-branch
+git checkout name-of-new-branch
 ```
 
