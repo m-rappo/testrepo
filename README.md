@@ -32,5 +32,7 @@ git clone git@github.com:SwissStatsR/testrepo.git
 ```
 git add *
 git commit -m "A short description of what we changed"
+
+# push changes to the online repository
 git push
 ```
