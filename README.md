@@ -15,3 +15,16 @@ The `testrepo` package can be installed from R with:
 ```r
 remotes::install_github("SwissStatsR/testrepo")
 ```
+
+
+## Basic `git` operations (from the command line)
+
+- clone this repository to your PC:
+```
+# With https:
+git clone https://github.com/SwissStatsR/testrepo.git
+
+# With ssh:
+git clone git@github.com:SwissStatsR/testrepo.git
+```
+
