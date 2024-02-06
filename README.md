@@ -36,3 +36,10 @@ git commit -m "A short description of what we changed"
 # push changes to the online repository
 git push
 ```
+
+- suppose that someone made changes and pushed them onto the online repository. Synchronising the local repository with the online repository can be done with:
+```
+git pull
+```
+
+
