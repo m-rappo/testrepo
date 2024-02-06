@@ -33,7 +33,7 @@ git clone git@github.com:SwissStatsR/testrepo.git
 git add *
 git commit -m "A short description of what we changed"
 
-# push changes to the online repository
+# Push changes to the online repository
 git push
 ```
 
@@ -42,4 +42,22 @@ git push
 git pull
 ```
 
+- create a new branch and push changes online:
+```
+# Verify the available branches and in which branch you are
+git branch
+
+# Create a new branch
+git checkout -b name-of-new-branch
+
+# Create new files, modify existing ones, etc...
+git add *
+git commit -m "What has been created and/or modified"
+
+# Push from the new local branch to the online branch
+git push --set-upstream origin name-of-new-branch
+
+git branch
+# You should see an asterisk next to name-of-new-branch
+```
 
