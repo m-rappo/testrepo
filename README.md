@@ -37,7 +37,7 @@ git status
 
 - after creating a new file or modifying an existing one:
 ```
-git add *
+git add .
 git commit -m "A short description of what we changed"
 
 # Push changes to the online repository
