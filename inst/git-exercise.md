@@ -46,3 +46,20 @@ Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
 ```
+
+
+# With RStudio
+
+Steps 1. to 3. are the same as in the example with the command line.  
+
+4. To clone the remote repository on the local PC, you can do this with the command line as seen above, or from RStudio: File -> New Project -> Version Control -> Git -> Then paste the repository url and choose a subdirectory in which to save the project.  
+
+5. Open the `.Rproj` file with RStudio (in our case `testrepo.Rproj`).  
+
+6. Work as usual in RStudio and manage changes with git via the Git pane.  
+    - flag a newly created file / a modified file or a deleted file,  
+    - push "Commit" -> a new window opens: type a message for the commit  
+    - 
+
+
+
