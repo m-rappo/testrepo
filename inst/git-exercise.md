@@ -1,5 +1,5 @@
 
-# From th command line
+# From the command line
 
 1. Log in to your github account.  
 
@@ -37,4 +37,12 @@ git commit -m "add new_file.txt, just as an example"
 git status
 git push
 git status
+```
+
+10. If everything went well, you should see a message like this:
+```
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
 ```
