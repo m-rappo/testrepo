@@ -58,7 +58,7 @@ git branch
 git checkout -b name-of-new-branch
 
 # Create new files, modify existing ones, etc...
-git add *
+git add .
 git commit -m "What has been created and/or modified"
 
 # Push from the new local branch to the online branch
