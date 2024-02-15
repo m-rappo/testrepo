@@ -32,7 +32,9 @@ cat new_file.txt
 9. Now type:
 ```
 git add .
+git status
 git commit -m "add new_file.txt, just as an example"
 git status
 git push
+git status
 ```
