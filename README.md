@@ -26,6 +26,9 @@ git clone https://github.com/SwissStatsR/testrepo.git
 
 # With ssh:
 git clone git@github.com:SwissStatsR/testrepo.git
+
+# Move to the local repo folder
+cd testrepo
 ```
 
 - after creating a new file or modifying an existing one:
