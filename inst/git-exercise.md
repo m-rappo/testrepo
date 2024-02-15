@@ -58,7 +58,7 @@ Steps 1. to 3. are the same as in the example with the command line.
 
 6. Work as usual in RStudio and manage changes with git via the Git pane.  
     - flag a newly created file / a modified file or a deleted file,  
-    - push "Commit" -> a new window opens: type a message for the commit and push the "Commit" button of the new opened window,    
+    - push "Commit" -> a new window opens: type a message for the commit and push the "Commit" button of the new opened window, then push the "Close" button,   
     - push the green button "Push" to push (upload) the modifications to the remote repository.  
     
 
