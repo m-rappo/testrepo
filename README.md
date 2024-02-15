@@ -29,6 +29,10 @@ git clone git@github.com:SwissStatsR/testrepo.git
 
 # Move to the local repo folder
 cd testrepo
+
+# Show the working tree status
+# (this can be useful to perform at every stage)
+git status
 ```
 
 - after creating a new file or modifying an existing one:
