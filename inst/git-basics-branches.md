@@ -76,5 +76,8 @@ git branch -d name-of-new-branch
 
 # Delete the remote branch
 git push origin -d name-of-new-branch
+
+# Delete the local remote-tracking branch
+git branch --delete --remotes origin/name-of-new-branch
 ```
 
