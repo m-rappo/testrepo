@@ -57,3 +57,24 @@ git checkout main
 git checkout name-of-new-branch
 ```
 
+- if you are happy with the changes made to the new branch, you can include these changes to the main branch by doing a merge:
+```
+# Move to the main branch
+git checkout main
+
+# Merge name-of-new-branch with the main branch
+git merge name-of-new-branch
+
+# What do you see after a git status?
+git status
+
+# Push the "merged" main to the remote repository
+git push
+
+# Delete the local branch
+git branch -d name-of-new-branch
+
+# Delete the remote branch
+git push origin -d name-of-new-branch
+```
+
