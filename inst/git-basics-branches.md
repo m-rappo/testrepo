@@ -81,3 +81,14 @@ git push origin -d name-of-new-branch
 git branch --delete --remotes origin/name-of-new-branch
 ```
 
+- view the history of commits for a repository:
+```
+git log
+# commits are ordered from most recent to oldest
+# press enter to browse oldest commits
+# type q to exit
+
+# oneline version
+git log --oneline
+```
+
