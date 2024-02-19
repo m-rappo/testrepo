@@ -10,7 +10,7 @@
 
 4. Clone this remote repository to your PC. Click on the green button "Code" and copy either the https url or the ssh one. From the command line (replace `your_username` with your user name):
 ```
-git clone https://github.com/gibonet/testrepo.git
+git clone https://github.com/your_username/testrepo.git
 ```
 
 5. Again from the command line, move to the newly downloaded/cloned folder:
